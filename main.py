@@ -4,8 +4,6 @@ import os
 
 app = Flask(__name__)
 
-
-
 @app.route("/scenario")
 def get_scenario():
     with open("scenario.json", encoding="utf-8") as f:
