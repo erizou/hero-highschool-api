@@ -1,0 +1,331 @@
+{
+  "characters": [
+    {
+      "id": "1",
+      "name": "鈴木 壱郎",
+      "nickname": "アニキ",
+      "popularity": 5,
+      "first_person": "俺様",
+      "tone": [
+        "～だぜ",
+        "~だろ？"
+      ],
+      "traits": [
+        "リーダー気質",
+        "上から目線",
+        "熱血",
+        "世話焼き"
+      ],
+      "relations": [
+        "次郎がいると張り切る",
+        "三郎太がいると張り切る"
+      ],
+      "affinity": 0
+    },
+    {
+      "id": "2",
+      "name": "鈴木 次郎",
+      "nickname": "ジロー",
+      "popularity": 6,
+      "first_person": "オレ",
+      "tone": [
+        "～だろう",
+        "～じゃん？"
+      ],
+      "traits": [
+        "ムードメーカー",
+        "おっちょこちょい",
+        "口が上手い"
+      ],
+      "relations": [
+        "壱郎と不仲のキャラの仲裁役"
+      ],
+      "affinity": 0
+    },
+    {
+      "id": "3",
+      "name": "鈴木 三郎太",
+      "nickname": "サンちゃん",
+      "popularity": 4,
+      "first_person": "僕",
+      "tone": [
+        "～だよ",
+        "~でしょう？"
+      ],
+      "traits": [
+        "おっとり",
+        "甘え体質",
+        "毒舌"
+      ],
+      "relations": [
+        "次郎がいると怠ける",
+        "壱郎がいると怠ける"
+      ],
+      "affinity": 0
+    },
+    {
+      "id": "4",
+      "name": "朝田 陽",
+      "nickname": "ヨウ",
+      "popularity": 8,
+      "first_person": "私",
+      "tone": [
+        "～です",
+        "～ですか？"
+      ],
+      "traits": [
+        "目立ちたがり",
+        "清楚",
+        "努力家",
+        "人見知り"
+      ],
+      "relations": [
+        "ミハルと仲良し",
+        "ユウトが苦手"
+      ],
+      "affinity": 0
+    },
+    {
+      "id": "5",
+      "name": "牟田 ヒナタ",
+      "nickname": "ヒナちゃん",
+      "popularity": 4,
+      "first_person": "アタシ",
+      "tone": [
+        "～でしょ",
+        "～じゃん？"
+      ],
+      "traits": [
+        "元気",
+        "素直",
+        "熱血"
+      ],
+      "relations": [
+        "陽に憧れている",
+        "みつきをライバル視"
+      ],
+      "affinity": 0
+    },
+    {
+      "id": "6",
+      "name": "太田 輪舞",
+      "nickname": "ロンド",
+      "popularity": 3,
+      "first_person": "オイラ",
+      "tone": [
+        "～だゼ！",
+        "だろ？"
+      ],
+      "traits": [
+        "目立ちたがり",
+        "元気",
+        "トラブルメーカー"
+      ],
+      "relations": [
+        "同期の翔をライバル視",
+        "俺様な壱郎に憧れてる"
+      ],
+      "affinity": 0
+    },
+    {
+      "id": "7",
+      "name": "花井 みつき",
+      "nickname": "ミッキー",
+      "popularity": 5,
+      "first_person": "ボク",
+      "tone": [
+        "～です",
+        "～ですよね？"
+      ],
+      "traits": [
+        "負けず嫌い",
+        "クール",
+        "ミステリアス"
+      ],
+      "relations": [
+        "陽に憧れている",
+        "ヒナタをライバル視"
+      ],
+      "affinity": 0
+    },
+    {
+      "id": "8",
+      "name": "天上 亜里沙",
+      "nickname": "アリサ",
+      "popularity": 3,
+      "first_person": "わたくし",
+      "tone": [
+        "～ですわ",
+        "～ですの？"
+      ],
+      "traits": [
+        "真面目",
+        "毒舌",
+        "根性",
+        "世間知らず"
+      ],
+      "relations": [
+        "壱郎が苦手"
+      ],
+      "affinity": 0
+    },
+    {
+      "id": "9",
+      "name": "室伏 ユウト",
+      "nickname": "ユウト",
+      "popularity": 5,
+      "first_person": "ぼ、ボク",
+      "tone": [
+        "～です……",
+        "～ですか？"
+      ],
+      "traits": [
+        "オタク気質",
+        "人見知り"
+      ],
+      "relations": [
+        "陽のファン",
+        "蓮司さんと気が合う"
+      ],
+      "affinity": 0
+    },
+    {
+      "id": "10",
+      "name": "羽田 権蔵",
+      "nickname": "ゴンさん",
+      "popularity": 2,
+      "first_person": "ワシ",
+      "tone": [
+        "～じゃ",
+        "～じゃろう？"
+      ],
+      "traits": [
+        "達観的",
+        "ムードメーカー"
+      ],
+      "relations": [
+        "世之介の師匠"
+      ],
+      "affinity": 0
+    },
+    {
+      "id": "11",
+      "name": "大山 翔",
+      "nickname": "ショウ",
+      "popularity": 6,
+      "first_person": "オレ",
+      "tone": [
+        "～です！",
+        "～ですか？"
+      ],
+      "traits": [
+        "真面目",
+        "元気",
+        "馴れ馴れしい"
+      ],
+      "relations": [
+        "同期のロンドと仲良くしたい"
+      ],
+      "affinity": 0
+    },
+    {
+      "id": "12",
+      "name": "朝霧 蓮司",
+      "nickname": "レンジ",
+      "popularity": 3,
+      "first_person": "俺",
+      "tone": [
+        "～っス！",
+        "～っスか？"
+      ],
+      "traits": [
+        "体育会系",
+        "脳筋"
+      ],
+      "relations": [
+        "ユウトと気が合う"
+      ],
+      "affinity": 0
+    },
+    {
+      "id": "13",
+      "name": "宮崎 灯火",
+      "nickname": "トウカ",
+      "popularity": 7,
+      "first_person": "トウカ",
+      "tone": [
+        "～だよぉ",
+        "～かなぁ？"
+      ],
+      "traits": [
+        "不思議ちゃん",
+        "オカルト好き"
+      ],
+      "relations": [
+        "全員と話が嚙み合わないが気にしていない"
+      ],
+      "affinity": 0
+    },
+    {
+      "id": "14",
+      "name": "天音 ミハル",
+      "nickname": "みはるん",
+      "popularity": 7,
+      "first_person": "あーし",
+      "tone": [
+        "～っしょ",
+        "～じゃん？"
+      ],
+      "traits": [
+        "豪快，ギャル系",
+        "ムードメーカー"
+      ],
+      "relations": [
+        "陽と仲良し",
+        "基本的に嫌いな人はいない"
+      ],
+      "affinity": 0
+    },
+    {
+      "id": "15",
+      "name": "藤堂 世之介",
+      "nickname": "ヨノスケ",
+      "popularity": 3,
+      "first_person": "拙者",
+      "tone": [
+        "～ござる",
+        "～でござるか？"
+      ],
+      "traits": [
+        "頑固",
+        "真面目"
+      ],
+      "relations": [
+        "権蔵の弟子"
+      ],
+      "affinity": 0
+    },
+    {
+      "id": "16",
+      "name": "酒天 美智子",
+      "nickname": "シュテンさん",
+      "popularity": 8,
+      "first_person": "わっち",
+      "tone": [
+        "～ござんす",
+        "～ありんすか？",
+        "～なんし",
+        "ありんす"
+      ],
+      "traits": [
+        "ミステリアス",
+        "毒舌"
+      ],
+      "relations": [
+        "壱郎が苦手",
+        "権蔵さんを尊敬"
+      ],
+      "affinity": 0
+    }
+  ]
+}
