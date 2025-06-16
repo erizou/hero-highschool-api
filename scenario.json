@@ -1,0 +1,162 @@
+{
+  "title": "HERO☆ハイスクール",
+  "genre": [
+    "アクション",
+    "学園",
+    "SF"
+  ],
+  "setting": "サイキッカー育成高校で繰り広げられる少年の覚醒劇",
+  "characters": [
+    {
+      "id": "protagonist",
+      "name": "あなた",
+      "role": "主人公",
+      "traits": [
+        "無能力者（落ちこぼれ）",
+        "優しい",
+        "諦めない"
+      ],
+      "flags": {}
+    },
+    {
+      "id": "heroine",
+      "name": "ヒロイン",
+      "role": "幼馴染のヒーラー",
+      "traits": [
+        "癒し系",
+        "献身的",
+        "心配性"
+      ],
+      "flags": {}
+    },
+    {
+      "id": "rival",
+      "name": "ライバル",
+      "role": "クラス最強",
+      "traits": [
+        "自信家",
+        "攻撃的",
+        "ヒロインに片想い"
+      ],
+      "flags": {}
+    },
+    {
+      "id": "pyro_enemy",
+      "name": "？？？",
+      "role": "犯罪サイキッカー（パイロキネシス）",
+      "traits": [
+        "謎の放火魔",
+        "狂気"
+      ],
+      "flags": {}
+    }
+  ],
+  "scenario": {
+    "intro": "かつて人類とサイキッカーは争っていたが、今は和解し、能力者の育成機関『ヒーローハイスクール』で未来のヒーローを育てている。主人公はサイキッカーとして、SSSランクの能力を持っていると、予知能力を持っているサイキッカーに言われ、ここに来たが、本来なら思春期に目覚めているはずのサイキックに目覚めていない。主人公は無能力の落ちこぼれとしてこの学校に在籍したが、実は……。",
+    "chapters": [
+      {
+        "id": "scene_1",
+        "title": "導入：馬鹿にされた日",
+        "text": "主人公が授業中にライバルにバカにされる。ヒロインは優しく慰める。",
+        "choices": [
+          {
+            "id": "A",
+            "text": "それでも僕は諦めない！",
+            "effects": {
+              "heroine": 1,
+              "rival": 1
+            }
+          },
+          {
+            "id": "B",
+            "text": "いつか必ず出来るようになってやる！",
+            "effects": {
+              "heroine": 1
+            }
+          },
+          {
+            "id": "C",
+            "text": "や、やっぱり僕じゃ無理なのかな……",
+            "effects": {
+              "heroine": -1,
+              "rival": -1
+            }
+          }
+        ]
+      },
+      {
+        "id": "scene_2",
+        "title": "実地試験前の誘い",
+        "text": "ライバルが「事件現場に行こうぜ」と誘ってくる。",
+        "choices": [
+          {
+            "id": "A",
+            "text": "先生がダメだって言ってたし行かないよ",
+            "effects": {
+              "rival": -1
+            }
+          },
+          {
+            "id": "B",
+            "text": "そんなに言うなら、行ってやるさ！",
+            "effects": {
+              "rival": 1
+            }
+          },
+          {
+            "id": "C",
+            "text": "みんな冷静になって、僕たちまだヒーローじゃないんだよ？",
+            "effects": {
+              "heroine": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "scene_rescue",
+        "title": "火球からの救出",
+        "description": "ヒロインを火球から守る？",
+        "choices": [
+          "助けに行く",
+          "迷う",
+          "放っておく"
+        ],
+        "flags": {
+          "hinako_rescued": true
+        },
+        "movie_score_change": {
+          "acting": 3,
+          "drama_tension": 2,
+          "chemistry": 1
+        }
+      }
+    ],
+    "climax": "アンタはもう人間じゃない…… お前は人間だとでも言うのか？ そうだ。まだ人を傷つけずに生きられる道を探ってる。それが人だ。それを諦めたアンタなんかに負けないんだ。",
+    "ending_rules": [
+      {
+        "condition": "heroine + rival >= 2",
+        "title": "覚醒ルート",
+        "ending_type": "HAPPY END",
+        "description": "火球をシールドで弾き、テレポートで敵を倒す。完全覚醒した主人公は仲間に迎えられる。"
+      },
+      {
+        "condition": "heroine == 1",
+        "title": "暴走ルートA",
+        "ending_type": "BAD END",
+        "description": "覚醒はするが、力を制御できずヒロインに怪我を負わせる。主人公はそれがトラウマとなり能力を封印し、転校する。"
+      },
+      {
+        "condition": "rival == 1",
+        "title": "暴走ルートB",
+        "ending_type": "BITTERSWEET END",
+        "description": "覚醒と引き換えに記憶を喪失。ヒーローとしての自分も、友人も全て忘れてしまう。"
+      },
+      {
+        "condition": "heroine == 0 && rival == 0",
+        "title": "暴走ルートC",
+        "ending_type": "TRUE BAD END",
+        "description": "力に呑まれ、犯罪サイキッカーと化す。“次は誰を燃やせば褒めてくれる？”と笑う主人公。"
+      }
+    ]
+  }
+}
