@@ -9,5 +9,5 @@ def get_scenario():
         "genre": ["アクション", "学園", "SF"]
     })
 
-if __name__ == "__master__":
+if __name__ == "__main__":
     app.run()
