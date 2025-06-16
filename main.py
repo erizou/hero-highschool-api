@@ -1,9 +1,10 @@
 from flask import Flask, jsonify
+import json
+import os
 
 app = Flask(__name__)
 
-import json
-import os
+
 
 @app.route("/scenario")
 def get_scenario():
