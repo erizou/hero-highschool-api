@@ -13,7 +13,7 @@ def get_scenario():
 
 @app.route("/characters")
 def get_characters():
-    with open("character.json", encoding="utf-8") as f:
+    with open("characters.json", encoding="utf-8") as f:
         data = json.load(f)
     return jsonify(data)
 
