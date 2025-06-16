@@ -3,10 +3,17 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 import json
+import os
 
 @app.route("/scenario")
 def get_scenario():
     with open("scenario.json", encoding="utf-8") as f:
+        data = json.load(f)
+    return jsonify(data)
+
+@app.route("/characotor")
+def get_scenario():
+    with open("characotor.json", encoding="utf-8") as f:
         data = json.load(f)
     return jsonify(data)
 
